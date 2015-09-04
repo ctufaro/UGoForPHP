@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <dict>
-            <key>URL</key>
-            <string>http://ugoforphp.azurewebsites.net/retrieve.php</string>
-            <key>DeviceAttributes</key>
-            <array>
-                <string>UDID</string>
-                <string>IMEI</string>
-                <string>ICCID</string>
-                <string>VERSION</string>
-                <string>PRODUCT</string>
-            </array>
-        </dict>
-        <key>PayloadOrganization</key>
-        <string>Ugofor.net</string>
-        <key>PayloadDisplayName</key>
-        <string>Profile Service</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadUUID</key>
-        <string>9CF421B3-9853-4454-BC8A-982CBD3C907C</string>
-        <key>PayloadIdentifier</key>
-        <string>com.yourwebsite.profile-service</string>
-        <key>PayloadDescription</key>
-        <string>This temporary profile will be used to find and display your current device's UDID.</string>
-        <key>PayloadType</key>
-        <string>Profile Service</string>
-    </dict>
+<dict>
+<key>PayloadContent</key>
+<dict>
+<key>URL</key>
+<string>http://ugoforphp.azurewebsites.net/retrieve.php</string>
+<key>DeviceAttributes</key>
+<array>
+<string>UDID</string>
+<string>IMEI</string>
+<string>ICCID</string>
+<string>VERSION</string>
+<string>PRODUCT</string>
+</array>
+</dict>
+<key>PayloadOrganization</key>
+<string>sitename.com Mobile Web App</string>
+<key>PayloadDisplayName</key>
+<string>sitename Profile</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadUUID</key>
+<string>744e5abc-c5c4-4x3z-cvfa-d827e4a1d4c8</string>
+<key>PayloadIdentifier</key>
+<string>com.sitename.register-udid</string>
+<key>PayloadDescription</key>
+<string>By installing this profile, you'll allow sitename's mobile web app to know the UDID of your device and find apps available for installation on www.sitename.come/mobile
+Only the UDID of your device will be transmitted to sitename. Nothing will be installed on the device.</string>
+<key>PayloadType</key>
+<string>Profile Service</string>
+</dict>
 </plist>
