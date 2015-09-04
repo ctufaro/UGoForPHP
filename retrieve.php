@@ -2,9 +2,8 @@
   $data = rawurlencode(file_get_contents('php://input'));
 
   $pieces = explode("UDID", $data);
-  $pieces2 = explode("Fstring", $pieces[1]);
-  $pieces3 = explode("Cstring%253E", $pieces2[0]);
-  $pieces4 = explode("%253C%252", $pieces3[1]);
+  $pieces2 = explode("%3C%2Fstring", $pieces[1]);
+  $pieces3 = explode("Cstring%3E", $pieces2[0]);
 
-  header("Location: http://ugoforapi.azurewebsites.net/home/udid?data=".$data, true, 301);
+  header("Location: http://ugoforapi.azurewebsites.net/home/udid?data=".$pieces3[1], true, 301);
 ?>
