@@ -5,7 +5,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>http://ugoforphp.azurewebsites.net/retrieve.php</string>
+            <string>https://ugoforphp.azurewebsites.net/retrieve.php</string>
             <key>DeviceAttributes</key>
             <array>
                 <string>UDID</string>
