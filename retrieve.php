@@ -59,4 +59,6 @@ foreach($arrayCleaned as $elem){
 $params = "UDID=".$UDID."&CHALLENGE=".$CHALLENGE."&DEVICE_NAME=".$DEVICE_NAME."&DEVICE_PR ODUCT=".$DEVICE_PRODUCT."&DEVICE_VERSION=".$DEVICE_VERSION;
 // enrollment is a directory
 //header('Location: http://mywebsite.com/enrollment?'.$params);
-header("Location: http://ugoforapi.azurewebsites.net/home/udid?data=".$params, true, 301);
+//header("Location: http://ugoforapi.azurewebsites.net/home/udid?data=".$params, true, 301);
+header("Location: http://ugoforphp.azurewebsites.net/udid?data=justwork", true, 301);
+  
