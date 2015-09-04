@@ -1,8 +1,4 @@
-if (isset($_GET["udid"])) {
-    echo($_GET["udid"]);
-    exit();
-}
-$udid = substr(strstr(strstr($HTTP_RAW_POST_DATA, '</dict>', true),"<string>"),8,40);
-header("Location: ". $_SERVER["REQUEST_URI"] . "?udid=" . $udid, true, 301);
-
-  
+<?php
+  $data = file_get_contents('php://input');
+  header("Location: http://ugoforapi.azurewebsites.net/home/udid?data=".rawurlencode($data));
+?>
