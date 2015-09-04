@@ -16,9 +16,9 @@
 </array>
 </dict>
 <key>PayloadOrganization</key>
-<string>sitename.com Mobile Web App</string>
+<string>Chris Tufaro</string>
 <key>PayloadDisplayName</key>
-<string>sitename Profile</string>
+<string>UGoFor Profile</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>PayloadUUID</key>
@@ -26,8 +26,7 @@
 <key>PayloadIdentifier</key>
 <string>com.sitename.register-udid</string>
 <key>PayloadDescription</key>
-<string>By installing this profile, you'll allow sitename's mobile web app to know the UDID of your device and find apps available for installation on www.sitename.come/mobile
-Only the UDID of your device will be transmitted to sitename. Nothing will be installed on the device.</string>
+<string>Provides UDID for Testing Devices</string>
 <key>PayloadType</key>
 <string>Profile Service</string>
 </dict>
